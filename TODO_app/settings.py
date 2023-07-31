@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-2_@8%9y6kdu(u2a4$y0t3h_+wi7!54$3z^aaf_i69z+7$%f6a1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'scintillating-praline-8f59ce.netlify.app']
+ALLOWED_HOSTS = [".vercel.app"]
 
 
 # Application definition
